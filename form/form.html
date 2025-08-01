@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
 <body>
     <h2>My bio Data</h2>
@@ -11,28 +11,28 @@
         <fieldset style="width: 1000px; border: 3px solid black;">
             <legend>Personal Info</legend>
             <span>First Name:</span>
-            <input type="text" placeholder="First name">
+            <input type="text" placeholder="First name" required>
             <span>Last name:</span>
-            <input type="text" placeholder="Last name">
+            <input type="text" placeholder="Last name" required>
             <br><br>
             <span>Male:</span>
-            <input type="radio" name="gender">
+            <input type="radio" name="gender" required>
             <span>Female:</span>
             <input type="radio" name="gender">
             <span>other:</span>
             <input type="radio" name="gender">
             <br><br>
             <span>Date Of Birth:</span>
-            <input type="date">
+            <input type="date" required>
             <br><br>
             <span>Phone Number:</span>
-            <input type="text" value="+91"> 
+            <input type="text" value="+91" required> 
         </fieldset>
 
         <fieldset style="width: 1000px; border: 3px solid black;">
             <legend>Education</legend>
             <span>School Name:</span>
-            <input type="text" placeholder="School name">
+            <input type="text" placeholder="School name" required>
             <br><br>
             <span>Class:</span>
             <select>
